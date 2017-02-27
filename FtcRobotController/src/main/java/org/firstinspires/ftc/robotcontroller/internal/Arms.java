@@ -31,6 +31,7 @@ public class Arms extends OpMode {
         Lshould.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         Rshould.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 
+
         Lshould.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         Rshould.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         telemetry.addData("Init", "Init Completed");
